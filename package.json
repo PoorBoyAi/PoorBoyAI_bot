@@ -1,0 +1,8 @@
+{
+  "name": "poorboyai-release-gate-verification",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "validate:release": "node scripts/release-gate-verification-failure.mjs"
+  }
+}
